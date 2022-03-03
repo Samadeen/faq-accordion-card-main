@@ -35,12 +35,13 @@ body {
 .container {
   background: white;
   border-radius: 30px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.2);
   height: 509px;
   width: 920px;
   display: grid;
   grid-template-columns: 0.9fr 1fr;
   grid-gap: 6rem;
-  background-image: url(/images/bg-pattern-desktop.svg);
+  background-image: url(./images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-position: 1260% 65%;
   margin-bottom: 2rem;
@@ -97,7 +98,7 @@ body {
   transition: 0.4s;
 }
 
-.active h3 {
+.active h2 {
   font-weight: 700;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 .image__inner {
-  background: url(/images/illustration-woman-online-desktop.svg);
+  background: url(./images/illustration-woman-online-desktop.svg);
   height: 100%;
   background-repeat: no-repeat;
   background-position: 120% center;
