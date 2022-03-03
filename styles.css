@@ -82,6 +82,7 @@ body {
 .title__accordion {
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .title__question {
